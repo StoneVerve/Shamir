@@ -1,0 +1,29 @@
+Alumno: Dimitri Semenov Flores
+No.Cuenta: 313308545
+Dirección: dimavita@ciencias.unam.mx
+
+Requisitos: python 2.7.6, doxygen, makefile.
+
+Lista de comandos soportados por make:
+	
+	clean
+	--Elimina los archivos .pyc que se generan al ejectuar el programa Main.py
+	
+	docs
+	--Genera una carpeta con la documentación en Latex y Html de los modulos haciendo
+	  uso de doxygen
+	 
+	clean_docs
+	--Elimina la carpeta docs con todo su contenido
+	
+
+El programa cifra un archivo haciendo uso de AES y parte la clave en n llaves 
+indicadas al ejecutar el programa y de las cuales con al menos t llaves donde 
+t <= n se puede recuperar la clave
+
+el formato para ejecutar es 
+	-Si se quiere cifrar
+	Python2 -c [Nombre del archivo de llaves] [Llaves] [Minimo num de llaves] [archivo]
+	-Si se quiere descifrar
+	Python2 -d [Archivo con almenos t llaves] [Nombre del archivo cifrado] 
+
