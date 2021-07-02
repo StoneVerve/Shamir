@@ -1,7 +1,3 @@
-Alumno: Dimitri Semenov Flores
-No.Cuenta: 313308545
-Dirección: dimavita@ciencias.unam.mx
-
 Requisitos: python 2.7.6, doxygen, makefile.
 
 Lista de comandos soportados por make:
